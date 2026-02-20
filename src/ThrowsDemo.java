@@ -7,6 +7,9 @@ public class ThrowsDemo {
         if (n<0){
             throw new IOException();
         }
+        else {
+            System.out.println(n);
+        }
     }
 
     public static void main(String[] args){
